@@ -1,5 +1,8 @@
 #include "lest.h"
+
+#undef CASE
 #define CASE( name ) lest_CASE( specification(), name )
+
 extern lest::tests & specification();
 
 #include "datetime.h"

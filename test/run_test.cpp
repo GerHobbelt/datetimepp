@@ -1,5 +1,6 @@
 #include "lest.h"
 
+#undef CASE
 #define CASE( name ) lest_CASE( specification(), name )
 
 lest::tests & specification()
